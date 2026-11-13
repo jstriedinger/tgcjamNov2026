@@ -73,3 +73,20 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Packaged game builds (5.5 GB; only some DLLs inside are ignored today)
+Builds/
+
+# Rider / JetBrains user files (the template only covers Visual Studio)
+.idea/
+
+# VS "slnx" solution format (the template only ignores *.sln)
+*.slnx
+
+# Per-developer content scratch folder
+Content/Developers/
+
+# Claude Code local settings
+.claude/settings.local.json
+CLAUDE.md
+/Docs/**
